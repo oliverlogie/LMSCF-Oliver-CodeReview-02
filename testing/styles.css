@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+}
+
+.container{
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%
+}
+
+#content{
+	margin: 5%;
+}
+
+#headerpic{
+	background-color: darkred;
+	height: 7em;
+
+
+}
+
+.headerright {
+	float: right;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 1em;
+}
+
+.headerleft{
+	float: left;
+	width: 16em;
+	height: 3em;
+	padding-top: 2em;
+	padding-left: 2em;
+	padding-bottom: 2em;
+}
+#time{
+	text-align: right;
+	padding-bottom:0.7em;
+	padding-top:0.3em;
+
+}
+
+.headline{
+	font-size: 30px;
+	background-color: lightgrey;
+	padding-left: 1em;
+	padding-bottom: 0.1em;
+	padding-top: 0.1em;
+	margin-bottom: 0.5em;
+
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.navbar a {
+  float: left;
+  padding: 3px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  text-align: center;
+  list-style:none;
+  color: white;
+  margin-left: 1em;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  background-color: darkred;
+}
+
+@media all and (max-width: 500px) {
+  .navbar {
+    justify-content: space-around;
+
+  }
+}
+
+.a{
+	
+	flex-direction: row;
+	display: flex;
+	width: 25%;
+	height: 200px;
+	border-style: solid;
+	margin-right: 1%;
+}
+
+.b{
+	width: 20%;
+	height: 500px;
+	border-style: solid;
+}
+
+.flex1{
+	position: absolute;
+	display: flex;
+	width: 100%;
+}
+
+.c{
+	
+	flex-direction: row;
+	display: flex;
+	width: 31%;
+	height: 200px;
+	border-style: solid;
+	margin-right: 1%;
+}
+
+.flex2{
+	position: relative;
+	display: flex;
+	width: 90%;
+}
+
+.popular{
+	padding-top: 22%;
+
+}
+
+.headline{
+	font-size: 30px;
+	background-color: lightgrey;
+	padding-left: 1em;
+	padding-bottom: 0.1em;
+	padding-top: 0.1em;
+	margin-bottom: 0.5em;
+	width: 84%;
+
+}
