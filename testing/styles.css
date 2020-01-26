@@ -6,10 +6,15 @@
 	font-family: Arial, Helvetica, sans-serif;
 	width: 100%
 }
+.container{
+		position: absolute;
+}
 
 #content{
+	padding-top: 1%;
 	margin: 5%;
 }
+
 
 #headerpic{
 	background-color: darkred;
@@ -18,11 +23,23 @@
 
 }
 
+@media all and (max-width: 500px) {
+  .headerright {
+    display: none;
+
+  }
+}
+
 .headerright {
 	float: right;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	padding-right: 1em;
+}
+
+.topnews{
+	width: 100%;
+	position: relative;
 }
 
 .headerleft{
@@ -54,22 +71,16 @@
 .navbar {
   width: 100%;
   background-color: black;
-  overflow: auto;
-  justify-content: center;
-  margin-bottom: 1%;
+  padding: 1%;
+  padding-left: 2%;
 }
 
 .navbar a {
-  float: left;
-  padding: 3px;
-  color: white;
-  text-decoration: none;
-  font-size: 1.3em;
-  text-align: center;
-  list-style:none;
-  color: white;
-  margin-left: 1em;
-  padding: 10px;
+	text-align: center;
+	font-size: 1.3em;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
 }
 
 .navbar a:hover {
@@ -83,56 +94,98 @@
   }
 }
 
-.a{
-	
-	flex-direction: row;
-	display: flex;
-	width: 25%;
-	height: 200px;
-	border-style: solid;
-	margin-right: 1%;
+.main{
+	width: 83%;
 }
 
-.b{
-	width: 20%;
-	height: 500px;
-	border-style: solid;
-}
-
-.flex1{
-	position: absolute;
-	display: flex;
+.top{
 	width: 100%;
 }
 
-.c{
+.a img{
 	
-	flex-direction: row;
+	flex-direction: column;
 	display: flex;
-	width: 31%;
+	width: 90%;
 	height: 200px;
-	border-style: solid;
-	margin-right: 1%;
+}
+.aside img{
+	width: 100%;
+	height: 475px;
+}
+
+
+.b{
+	position: relative;
+	float: right;
+	width: 15%;
+	justify-content: space-between;
+}
+
+.flex1{
+	display: flex;
+	width: 103.5%;
+	height: 100%;
+	justify-content: space-around;
 }
 
 .flex2{
 	position: relative;
 	display: flex;
-	width: 90%;
+	width: 103.5%;
+	justify-content: space-between;
 }
 
 .popular{
-	padding-top: 22%;
+	padding-top: 2%;
 
 }
 
-.headline{
-	font-size: 30px;
-	background-color: lightgrey;
-	padding-left: 1em;
-	padding-bottom: 0.1em;
-	padding-top: 0.1em;
-	margin-bottom: 0.5em;
-	width: 84%;
+.midpic{
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 5%;
 
+}
+
+.c{
+	width: 100%;
+	height: 100px;
+}
+
+.c img{
+	width: 100%;
+}
+
+@media all and (max-width: 500px) {
+  .c {
+    display: none; }
+}
+
+/* bottom flex box */
+
+.bot{
+	width: 83%;
+}
+
+.flex3{
+	display: flex;
+	width: 103.5%;
+	height: 100%;
+	justify-content: space-around;
+}
+
+.d{
+	position: relative;
+	float: right;
+	width: 10%;
+	justify-content: space-between;
+}
+
+.e{
+	flex-direction: column;
+	display: flex;
+	width: 90%;
+	height: 200px;
+	border-style: solid;
 }
