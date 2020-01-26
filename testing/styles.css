@@ -119,14 +119,12 @@
 	position: relative;
 	float: right;
 	width: 15%;
-	justify-content: space-between;
 }
 
 .flex1{
 	display: flex;
 	width: 103.5%;
 	height: 100%;
-	justify-content: space-around;
 }
 
 .flex2{
@@ -164,28 +162,45 @@
 
 /* bottom flex box */
 
+.fullbot{
+	width: 100%;
+}
+
 .bot{
 	width: 83%;
 }
 
 .flex3{
 	display: flex;
-	width: 103.5%;
+	width: 100%;
 	height: 100%;
 	justify-content: space-around;
+	margin-top: 5%;
 }
 
 .d{
 	position: relative;
 	float: right;
-	width: 10%;
+	width: 15%;
 	justify-content: space-between;
 }
 
+.d img{
+	width: 100%;
+}
+
 .e{
+	flex-direction: row;
+	display: flex;
+	width: 100%;
+	height: 250px;
+	justify-content: space-around;
+}
+
+.e img{
+	
 	flex-direction: column;
 	display: flex;
-	width: 90%;
-	height: 200px;
-	border-style: solid;
+	width: 100%;
+	height: 250px;
 }
