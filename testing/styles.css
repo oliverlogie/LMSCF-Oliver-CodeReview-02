@@ -148,14 +148,11 @@
     height: 190px; }
      }
 .iphone2 {
-  flex-direction: row;
-  display: flex;
+  position: relative;
   width: 450px;
   height: 300px;
   justify-content: space-between; }
   .iphone2 img {
-    flex-direction: row;
-    display: flex;
     width: 450px;
     height: 300px; }
 
@@ -237,6 +234,21 @@
   flex-wrap: wrap;
   flex-direction: row; }
 
+.bdesc{
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 0px;
+  padding:10px;
+
+}
+
+@media all and (max-width: 480px) {
+	.bdesc{
+		bottom: 0px;
+		font-size: 13px;
+		} }
+
 @media all and (max-width: 480px) {
   .flex3 {
     width: 100%; } }
@@ -252,15 +264,13 @@
 @media all and (max-width: 480px) {
   .d img {
     display: none; } }
+
 .e {
-  flex-direction: row;
-  display: flex;
+  position: relative;
   width: 450px;
   height: 300px;
   justify-content: space-between; }
   .e img {
-    flex-direction: row;
-    display: flex;
     width: 450px;
     height: 300px; }
 
@@ -296,6 +306,15 @@ footer {
     color: white;
     text-decoration: none;
     padding-right: 1%; }
+
+.bottomnav a:hover {
+    background-color: darkred;
+    padding: 13px; }
+
+@media all and (max-width: 480px) {
+	.bottomnav a:hover {
+    background-color: darkred;
+    padding: 5px; }
 
 .end {
   text-align: center;
