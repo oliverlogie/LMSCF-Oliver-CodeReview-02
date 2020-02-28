@@ -1,0 +1,20 @@
+img{
+	height: 13em;
+}
+
+.media{
+	background-color: gray;
+}
+
+.alignButton{
+	float: right;
+}
+
+.myrow button{
+	display: flex;
+	width: 10%;
+}
+
+.mycolor{
+	background-color: black;
+}

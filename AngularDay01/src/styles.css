@@ -1,0 +1,10 @@
+.jumbotron {
+
+    background: url('../img/skitour.jpg')  no-repeat center center;
+
+            color: white;
+
+            background-size: cover;
+            position: relative;
+
+   }
