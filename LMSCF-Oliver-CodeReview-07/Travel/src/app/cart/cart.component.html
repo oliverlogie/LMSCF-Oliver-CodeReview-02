@@ -1,0 +1,10 @@
+<button type="button" (click)="clearCart()" class="btn btn-success p-3">Clear Cart</button>
+<div class="row">
+    <div class="card col-2" *ngFor="let item of items">
+    <img  src={{item.img}} alt="">
+    <p>{{item.destination}}</p>
+    <p>{{item.duration}}</p>
+    <p>{{item.price}}</p>
+    
+</div>
+</div>
